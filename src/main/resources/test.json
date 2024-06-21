@@ -1,0 +1,123 @@
+{
+  "id": "sr:match:46656681",
+  "scheduled": "2024-03-29T00:00:00+00:00",
+  "start_time_tbd": false,
+  "status": "closed",
+  "tournament_round": {
+    "type": "group",
+    "number": 12,
+    "group": "A"
+  },
+  "season": {
+    "id": "sr:season:114005",
+    "name": "Copa de la Liga 2024",
+    "start_date": "2024-01-25",
+    "end_date": "2024-12-18",
+    "year": "2024",
+    "tournament_id": "sr:tournament:28538"
+  },
+  "tournament": {
+    "id": "sr:tournament:28538",
+    "name": "Copa de la Liga",
+    "sport": {
+      "id": "sr:sport:1",
+      "name": "Soccer"
+    },
+    "category": {
+      "id": "sr:category:48",
+      "name": "Argentina",
+      "country_code": "ARG"
+    },
+    "uuids": "3dd97eed-3119-44ac-acaa-565bd36f546a"
+  },
+  "competitors": [
+    {
+      "id": "sr:competitor:4937",
+      "name": "Instituto AC Cordoba",
+      "country": "Argentina",
+      "country_code": "ARG",
+      "abbreviation": "IAC",
+      "qualifier": "home"
+    },
+    {
+      "id": "sr:competitor:3216",
+      "name": "Argentinos Juniors",
+      "country": "Argentina",
+      "country_code": "ARG",
+      "abbreviation": "ARG",
+      "qualifier": "away"
+    }
+  ],
+  "venue": {
+    "id": "sr:venue:12033",
+    "name": "Estadio Presidente Peron",
+    "capacity": 26535,
+    "city_name": "Cordoba",
+    "country_name": "Argentina",
+    "map_coordinates": "-31.383700,-64.180303",
+    "country_code": "ARG"
+  },
+  "markets": [
+    {
+      "odds_type_id": 2,
+      "name": "3way",
+      "group_name": "regular",
+      "books": [
+        {
+          "id": "sr:book:17324",
+          "name": "MGM",
+          "outcomes": [
+            {
+              "odds_field_id": 3,
+              "type": "home",
+              "odds": "2.300",
+              "opening_odds": "2.200",
+              "odds_trend": "down"
+            },
+            {
+              "odds_field_id": 5,
+              "type": "away",
+              "odds": "3.400",
+              "opening_odds": "3.300",
+              "odds_trend": "up"
+            },
+            {
+              "odds_field_id": 4,
+              "type": "draw",
+              "odds": "2.950",
+              "opening_odds": "3.100",
+              "odds_trend": "neutral"
+            }
+          ]
+        },
+        {
+          "id": "sr:book:18149",
+          "name": "DraftKings",
+          "outcomes": [
+            {
+              "odds_field_id": 3,
+              "type": "home",
+              "odds": "2.350",
+              "opening_odds": "2.250",
+              "odds_trend": "neutral"
+            },
+            {
+              "odds_field_id": 5,
+              "type": "away",
+              "odds": "3.400",
+              "opening_odds": "3.500",
+              "odds_trend": "neutral"
+            },
+            {
+              "odds_field_id": 4,
+              "type": "draw",
+              "odds": "2.950",
+              "opening_odds": "2.950",
+              "odds_trend": "down"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
