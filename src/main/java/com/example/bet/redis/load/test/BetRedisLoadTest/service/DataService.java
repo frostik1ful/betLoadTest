@@ -9,7 +9,11 @@ public interface DataService {
 
     RedisDataEntity findRedisById(String id);
 
-    DataEntity findPostgreById(Long id);
+    String findPostgreById(Long id);
 
     RedisDataEntity redisResponseOrCreateIfEmpty(String id);
+
+    String findRedisPooledById(String id);
+
+    String findJDBCById(Long id);
 }

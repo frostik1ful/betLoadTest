@@ -4,7 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import org.springframework.data.redis.core.RedisHash;
 
-@RedisHash("DataEntity")
+//@RedisHash("DataEntity")
 @AllArgsConstructor
 @Data
 public class RedisDataEntity {
